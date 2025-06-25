@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "name": "Joe Rogan",
+    "podcast": "The Joe Rogan Experience",
+    "genre": ["Comedy", "Interviews", "Society & Culture"],
+    "isFamous": true,
+    "image": "/assets/Joe_Rogan.jpg",
+    "publisherMatch": "Joe Rogan"
+  },
+  {
+    "id": 2,
+    "name": "Tim Ferriss",
+    "podcast": "The Tim Ferriss Show",
+    "genre": ["Self-Improvement", "Business", "Productivity"],
+    "isFamous": true,
+    "image": "/assets/Tim_Ferriss.webp",
+    "publisherMatch": "Tim Ferriss"
+  },
+  {
+    "id": 3,
+    "name": "Emma Chamberlain",
+    "podcast": "Anything Goes",
+    "genre": ["Lifestyle", "Personal Journal", "Gen Z talk"],
+    "isFamous": true,
+    "image": "/assets/Emma_Chamberlain.jpg",
+    "publisherMatch": "Emma Chamberlain"
+  },
+  {
+    "id": 4,
+    "name": "Ranveer Allahbadia",
+    "podcast": "The Ranveer Show",
+    "genre": ["Indian culture", "Health", "Business", "Celebrities"],
+    "isFamous": true,
+    "image": "/assets/Ranveer_Allahbadia.jpg",
+    "publisherMatch": "Ranveer Allahbadia"
+  },
+  {
+    "id": 5,
+    "name": "Dax Shepard",
+    "podcast": "Armchair Expert",
+    "genre": ["Interviews", "Psychology", "Celebrities"],
+    "isFamous": true,
+    "image": "/assets/Dax_Shepard.jpg",
+    "publisherMatch": "Dax Shepard"
+  },
+  {
+    "id": 6,
+    "name": "Guy Raz",
+    "podcast": "How I Built This",
+    "genre": ["Startups", "Entrepreneurship"],
+    "isFamous": true,
+    "image": "/assets/Guy_Raz.png",
+    "publisherMatch": "Guy Raz"
+  },
+  {
+    "id": 7,
+    "name": "Alex Cooper",
+    "podcast": "Call Her Daddy",
+    "genre": ["Dating", "Mental Health", "Pop Culture"],
+    "isFamous": true,
+    "image": "/assets/Alex_Cooper.webp",
+    "publisherMatch": "Alex Cooper"
+  },
+  {
+    "id": 8,
+    "name": "Lex Fridman",
+    "podcast": "Lex Fridman Podcast",
+    "genre": ["AI", "Science", "Philosophy", "Technology"],
+    "isFamous": true,
+    "image": "/assets/Lex_Fridman.jpg",
+    "publisherMatch": "Lex Fridman"
+  },
+  {
+    "id": 9,
+    "name": "Jay Shetty",
+    "podcast": "On Purpose",
+    "genre": ["Mindfulness", "Purpose", "Spirituality"],
+    "isFamous": true,
+    "image": "/assets/jay_Shetty.png",
+    "publisherMatch": "Jay Shetty"
+  },
+  {
+    "id": 10,
+    "name": "Andrew Huberman",
+    "podcast": "Huberman Lab",
+    "genre": ["Neuroscience", "Science Education", "Health"],
+    "isFamous": true,
+    "image": "/assets/Andrew_Huberman.webp",
+    "publisherMatch": "Andrew Huberman"
+  },
+  {
+    "id": 11,
+    "name": "Mel Robbins",
+    "podcast": "The Mel Robbins Podcast",
+    "genre": ["Self-Help", "Motivation"],
+    "isFamous": true,
+    "image": "/assets/Mel_Robbins.jpg",
+    "publisherMatch": "Mel Robbins"
+  },
+  {
+    "id": 12,
+    "name": "Trevor Noah",
+    "podcast": "What Now? with Trevor Noah",
+    "genre": ["Global Affairs", "Comedy", "Politics"],
+    "isFamous": true,
+    "image": "/assets/Trevor_Noah.jpg",
+    "publisherMatch": "Trevor Noah"
+  },
+  {
+    "id": 13,
+    "name": "Conan O’Brien",
+    "podcast": "Conan O'Brien Needs a Friend",
+    "genre": ["Comedy", "Talk Show"],
+    "isFamous": true,
+    "image": "/assets/Conan_O'Brien.jpg",
+    "publisherMatch": "Conan O'Brien"
+  },
+  {
+    "id": 14,
+    "name": "Sadhguru",
+    "podcast": "Sadhguru Podcast",
+    "genre": ["Spirituality", "Wellness", "Indian Culture"],
+    "isFamous": true,
+    "image": "/assets/Sadhguru.jpg",
+    "publisherMatch": "Sadhguru"
+  },
+  {
+    "id": 15,
+    "name": "Ankur Warikoo",
+    "podcast": "Warikoo Podcast",
+    "genre": ["Motivation", "Career", "Indian Youth"],
+    "isFamous": true,
+    "image": "/assets/Ankur_Warikoo.jpg",
+    "publisherMatch": "Ankur Warikoo"
+  },
+  {
+    "id": 16,
+    "name": "Nikki Glaser",
+    "podcast": "The Nikki Glaser Podcast",
+    "genre": ["Comedy", "Dating", "Self-Help"],
+    "isFamous": true,
+    "image": "/assets/Nikki_Glaser.jpg",
+    "publisherMatch": "Nikki Glaser"
+  },
+  {
+    "id": 17,
+    "name": "Steven Bartlett",
+    "podcast": "The Diary of a CEO",
+    "genre": ["Business", "Self-Improvement", "Interviews"],
+    "isFamous": true,
+    "image": "/assets/Steven_Bartlett.webp",
+    "publisherMatch": "Steven Bartlett"
+  },
+  {
+    "id": 18,
+    "name": "Rich Roll",
+    "podcast": "The Rich Roll Podcast",
+    "genre": ["Health", "Veganism", "Mindfulness"],
+    "isFamous": true,
+    "image": "/assets/Rich_Roll.jpg",
+    "publisherMatch": "Rich Roll"
+  }
+]
