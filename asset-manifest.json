@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PodTalks/static/css/main.cd02de22.css",
+    "main.js": "/PodTalks/static/js/main.33e195bb.js",
+    "index.html": "/PodTalks/index.html",
+    "main.cd02de22.css.map": "/PodTalks/static/css/main.cd02de22.css.map",
+    "main.33e195bb.js.map": "/PodTalks/static/js/main.33e195bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd02de22.css",
+    "static/js/main.33e195bb.js"
+  ]
+}
