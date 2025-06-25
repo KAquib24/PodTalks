@@ -45,24 +45,7 @@ npm install
 
 # Start development server
 npm run dev
-
-    Make sure Node.js is installed on your machine.
-
-🧪 Upcoming Features (v2)
-
-    🔐 User authentication & login
-
-    ⏱️ Playback history with timestamps
-
-    🌍 API integration with podcast providers
-
-    🧠 AI-recommended shows
-
-    📱 PWA / Mobile app version
-
-🖼️ Screenshots
-Home	Footer Player	Create Playlist
-	
+Make sure Node.js is installed on your machine.
 	
 🤝 Contribution
 
