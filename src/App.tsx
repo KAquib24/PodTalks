@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Routes, Route } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Routes, Route, Navigate } from "react-router-dom";
 import "./index.css";
 
 // Components
@@ -28,6 +28,15 @@ function App() {
   const [isPlaying, setIsPlaying] = useState(false);
   const [playlistQueue, setPlaylistQueue] = useState<any[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  // Add useEffect to check initial route
+  useEffect(() => {
+    // Check if we're on an unexpected route and redirect to home
+    const currentPath = window.location.pathname;
+    if (currentPath === '/podcast' || currentPath === '/PodTalks' || currentPath === '/PodTalks/') {
+      window.history.replaceState(null, '', '/');
+    }
+  }, []);
 
   const handlePodcastPlay = (podcast: any) => {
     setCurrentPodcast(podcast);
@@ -96,9 +105,18 @@ function App() {
         <Sidebar />
         <div className="flex-1 overflow-y-auto py-6 pl-3 pr-4">
           <Routes>
+            {/* Default route - redirect to home */}
             <Route path="/" element={<Home onPlayPodcast={handlePodcastPlay} />} />
-            <Route path="/search" element={<SearchPage />} />
-            <Route path="/all-podcasts" element={<AllPodcast onPlayPodcast={handlePodcastPlay} />} />
+            
+            {/* Catch all other root paths and redirect to home */}
+            <Route path="/podcast" element={<Navigate to="/" replace />} />
+            <Route path="/PodTalks" element={<Navigate to="/" replace />} />
+            
+            <Route path="/search" element={<SearchPage onPlayPodcast={handlePodcastPlay}/>} />
+            <Route 
+              path="/all-podcasts/:playlistId?" 
+              element={<AllPodcast onPlayPodcast={handlePodcastPlay} />} 
+            />
             <Route path="/library" element={<Library />} />
             <Route path="/create-playlist" element={<CreatePlaylist />} />
             <Route
@@ -116,6 +134,9 @@ function App() {
               path="/genre/:genreName"
               element={<GenrePage onPlayPodcast={handlePodcastPlay} />}
             />
+            
+            {/* Fallback route for any undefined paths */}
+            <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </div>
       </div>
