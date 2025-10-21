@@ -1,7 +1,7 @@
 ````markdown
 # 🎙️ TalksOnPod — Modern Podcast Streaming Platform
 
-![TalksOnPod Banner](./public/homepage.png)
+![TalksOnPod Banner](./homepage.png)
 
 ![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0.2-3178C6?logo=typescript)
@@ -17,7 +17,7 @@
 
 | Home | Search | Playlist |
 |------|---------|-----------|
-| ![Home](./public/homepage.png) | ![Search](./public/search.png) | ![Playlist](./public/playlist.png) |
+| ![Home](./homepage.png) | ![Search](./search.png) | ![Playlist](./playlist.png) |
 
 ---
 
