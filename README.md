@@ -1,7 +1,7 @@
 ````markdown
 # 🎙️ TalksOnPod — Modern Podcast Streaming Platform
 
-![TalksOnPod Banner](./homepage.png)
+![TalksOnPod Banner](https://raw.githubusercontent.com/KAquib24/PodTalks/main/public/homepage.png)
 
 ![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0.2-3178C6?logo=typescript)
@@ -11,13 +11,15 @@
 
 > **TalksOnPod** is a premium, modern podcast streaming platform that delivers a stunning listening experience with intelligent content discovery, seamless playback, and a beautifully responsive interface.
 
+🎧 **Live Demo:** [https://pod-talks.vercel.app/](https://pod-talks.vercel.app/)
+
 ---
 
 ## ✨ Preview
 
 | Home | Search | Playlist |
 |------|---------|-----------|
-| ![Home](./homepage.png) | ![Search](./search.png) | ![Playlist](./playlist.png) |
+| ![Home](https://raw.githubusercontent.com/KAquib24/PodTalks/main/public/homepage.png) | ![Search](https://raw.githubusercontent.com/KAquib24/PodTalks/main/public/search.png) | ![Playlist](https://raw.githubusercontent.com/KAquib24/PodTalks/main/public/playlist.png) |
 
 ---
 
@@ -105,7 +107,7 @@ src/
 
 ```bash
 git clone https://github.com/KAquib24/PodTalks.git
-cd PODTALKS
+cd PodTalks
 npm install
 ```
 
@@ -171,18 +173,6 @@ interface FooterPlayerProps {
 * Like/dislike toggle
 * Keyboard shortcuts
 
-### 🧭 Navbar
-
-* Smart search bar with auto-suggestions
-* Responsive menu
-* Active route highlight
-
-### 📚 Sidebar
-
-* Collapsible layout
-* User stats & profile
-* Library shortcuts
-
 ---
 
 ## 🎨 Design System
@@ -198,20 +188,6 @@ interface FooterPlayerProps {
 --gray-400: #9ca3af;
 ```
 
-### Typography
-
-* **Headings:** Inter, bold
-* **Body:** Inter, regular
-* **Code:** JetBrains Mono
-
-### Breakpoints
-
-| Device  | Width      | Layout        |
-| ------- | ---------- | ------------- |
-| Mobile  | < 768px    | Single column |
-| Tablet  | 768–1024px | Two columns   |
-| Desktop | > 1024px   | Full layout   |
-
 ---
 
 ## 🚀 Deployment
@@ -223,62 +199,15 @@ npm i -g vercel
 vercel --prod
 ```
 
-### Alternatives
+### Live Demo
 
-```bash
-# Netlify
-npm run build && netlify deploy --prod --dir=dist
-
-# Firebase
-npm run build && firebase deploy
-
-# GitHub Pages
-npm install --save-dev gh-pages && npm run deploy
-```
-
----
-
-## 🤝 Contributing
-
-### Steps
-
-1. Fork the repo
-2. Create a feature branch → `git checkout -b feature/amazing-feature`
-3. Commit → `git commit -m "Add amazing feature"`
-4. Push → `git push origin feature/amazing-feature`
-5. Open a Pull Request
-
-### Guidelines
-
-* Use TypeScript for all components
-* Maintain accessibility standards
-* Follow design system conventions
-* Test across devices
-
-### Reporting Issues
-
-Include:
-
-* Browser + OS version
-* Steps to reproduce
-* Expected vs actual behavior
-* Screenshots (if possible)
+👉 **[pod-talks.vercel.app](https://pod-talks.vercel.app/)**
 
 ---
 
 ## 📜 License
 
 This project is licensed under the **MIT License** — see [`LICENSE.md`](LICENSE.md).
-
----
-
-## 🙏 Acknowledgments
-
-* Inspired by Spotify & Apple Podcasts
-* Icons: Heroicons, React Icons
-* Design: Tailwind CSS
-* Hosting: Vercel
-* Audio: Web Audio API
 
 ---
 
