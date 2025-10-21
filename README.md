@@ -1,4 +1,3 @@
-````markdown
 # 🎙️ TalksOnPod — Modern Podcast Streaming Platform
 
 ![TalksOnPod Banner](https://raw.githubusercontent.com/KAquib24/PodTalks/main/public/homepage.png)
@@ -41,7 +40,7 @@
 - **Expert Creators:** Discover influential podcast hosts  
 - **Recommendations:** Personalized based on listening behavior  
 - **Genre Browsing:** Explore podcasts by topic and mood  
-- **Trending Section:** Stay updated with what’s hot  
+- **Trending Section:** Stay updated with what's hot  
 
 ---
 
@@ -66,7 +65,7 @@
   "react-icons": "^4.8.0",
   "@heroicons/react": "^2.0.0"
 }
-````
+```
 
 ---
 
@@ -207,7 +206,7 @@ vercel --prod
 
 ## 📜 License
 
-This project is licensed under the **MIT License** — see [`LICENSE.md`](LICENSE.md).
+This project is licensed under the **MIT License** — see [`LICENSE.md`](LICENSE.md) for details.
 
 ---
 
@@ -216,4 +215,3 @@ This project is licensed under the **MIT License** — see [`LICENSE.md`](LICENS
 **Built with ❤️ using React, TypeScript, and Tailwind CSS**
 
 </div>
-```
